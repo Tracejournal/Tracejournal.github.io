@@ -253,3 +253,17 @@ p {
 #cover-right {
   margin-top: 20px;
 }
+
+ul.a {
+  font-size: 16pt;
+  font-family: "Times New Roman", Times, serif;
+  margin-top:0;
+  margin-bottom:10;
+}
+
+ol {
+  font-size: 16pt;
+  font-family: "Times New Roman", Times, serif;
+  margin-top:0;
+  margin-bottom:10;
+}
