@@ -13,8 +13,9 @@
     <!-- Bootstrap -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
     <link href="../../css/custom.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.ico" type="img/x-icon">
+    <link rel="shortcut icon" href="../../img/favicon.ico" type="img/x-icon">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,6 +54,8 @@
                   <li class="navlinks"><a href="../../issues.html">Issues</a></li>
                   <li class="navlinks"><a href="../../about.html">About</a></li>
                   <li class="navlinks"><a href="../../submit.html">Submissions</a></li>
+                  <li class="navlinks"><a class="copyicon" data-target="#copymodal" data-toggle="modal"><i class="fa fa-copyright" aria-hidden="true"></i></a></li></ul>
+
                 </ul>
               </div><!--/.nav-collapse -->
             </div>
@@ -281,15 +284,15 @@ embodied/gestural aspects of delivery than the vocal. In his work “<em>Actio</
     media, such as the media of our body, the construction of the project, and
     the naked networks that connect their interaction, may allow for
     information transmission between <em>actor</em> (the installation) and
-    audience (participant)—from a rhetorical perspective, this would ideally
+    <em>audience</em> (participant)&mdash;from a rhetorical perspective, this would ideally
 entice participant engagement which would, in turn, increase the maker’s <em>ethos</em>.
 </p>
 <p>
     Ultimately, though, Sean Morey’s inclusion of posthumanism and its
     application to digital delivery offer what I believe to be the biggest
-    contribution to critical making, at least pertaining “Musical Vitality.”
+    contribution to critical making, at least pertaining to “Musical Vitality.”
     For example, early in his work <em>Rhetorical Delivery and Digital Technologies: Network, Affect,
-        Electracy,</em> Morey writes that “digital writing technologies—through which the body
+        Electracy</em>, Morey writes that “digital writing technologies—through which the body
     again becomes visible and telepresent—invite a reevaluation about what
     delivery can offer rhetorical studies and writing practices” (1). Although
     he is referring to digital technologies in their entirety, more specific
@@ -306,7 +309,7 @@ entice participant engagement which would, in turn, increase the maker’s <em>e
     used by computer programmers—for example, Processing.
 </p>
 <p>
-    His inclusion of the theory posthumanism may also provide interesting
+    His inclusion of the theory of posthumanism may also provide interesting
     insight on the relationship and viability between critical making and
     digital rhetoric. Morey believes that, through digital technologies and
     theories of posthumanism, we are using the tools of delivery to create “an
@@ -353,7 +356,7 @@ Adafruit online store. For example, purchasing an Arduino Uno<sup>1</sup> comes 
     <li>1 – LED mixed bag – 10mm (10mm LEDs may be substituted with 5mm LEDs)</li>
     <li>1 – Bare Conductive paint pen – 10mL</li>
     <li>11 – multicolored (or clear) containers</li>
-    <li>1 – speaker system <strong>or</strong>computer with speakers (laptop preferred for transportation)</li>
+    <li>1 – speaker system <strong>or</strong> computer with speakers (laptop preferred for transportation)</li>
     <li>1 – USB A to B cable</li>
     <li>1 – Bare Conductive Touch Board</li>
     <li>1 – auxiliary cable</li>
@@ -408,7 +411,7 @@ Adafruit online store. For example, purchasing an Arduino Uno<sup>1</sup> comes 
 </p>
 <p>
     Each LED will need to be soldered to provide enough length to connect to
-    the Arduino board. To do so, solder each leg of the LED to the desire
+    the Arduino board. To do so, solder each leg of the LED to the desired
     length of copper wire. Repeat this process for each LED.
 </p>
 <p><img src="img/02-smith.jpg" class="img-responsive"></p>
@@ -418,16 +421,16 @@ Adafruit online store. For example, purchasing an Arduino Uno<sup>1</sup> comes 
     <strong>Step Two: Readying the Breadboard</strong>
 </p>
 <p>
-To begin, take one wire from the wire bundle and connect it to the (<strong>&mdash;</strong>) slot on the breadboard. Take the other end and connect
+To begin, take one wire from the wire bundle and connect it to the (–) slot on the breadboard. Take the other end and connect
     it to the <strong>GND</strong> input on the digital side of the Arduino.
 </p>
 <p>
     <strong>Step Three: Connecting the LEDs to the Breadboard, Arduino</strong>
 </p>
 <p>
-Keeping in mind the cathode(<strong>+</strong>) and anode (<strong>&mdash;</strong>) of each LED, take the positive leg and insert the
+Keeping in mind the cathode(<strong>+</strong>) and anode (–) of each LED, take the positive leg and insert the
     copper wire into <strong>Input 2</strong> on the Arduino board. Next, take
-    the negative leg and insert it into the same (<strong>&mdash;</strong>) row on
+    the negative leg and insert it into the same (–) row on
     the breadboard as the <strong>GND</strong> wire.
 </p>
 <p>
@@ -451,11 +454,11 @@ Keeping in mind the cathode(<strong>+</strong>) and anode (<strong>&mdash;</stro
     <strong>Step Five: Adding LEDs</strong>
 </p>
 <p>
-    Continue adding LEDs. Subsequent LEDs will go in chronological from 2, so
+    Continue adding LEDs. Subsequent LEDs will go in chronological order from 2, so
     the next LED’s cathode will go into <strong>Input 3</strong> and its anode
     will go into the same row as the other wires on the breadboard. Repeat this
     process until each LED’s leg has been inserted into the digital inputs of
-    the Arduino and the (<strong>&mdash;</strong>) of the breadboard.
+    the Arduino and the (–) of the breadboard.
 </p>
 <p>
     <strong>Note: </strong>If you are using an Arduino Uno, you will be forced to stop at    <strong>Input 11</strong>, as it is the last digital input. If you are
@@ -525,7 +528,7 @@ Keeping in mind the cathode(<strong>+</strong>) and anode (<strong>&mdash;</stro
 <p>
     Reconnect the LEDs to Arduino inputs 5-13, and 44, 45, and 46 (if you have
     a Mega 2560). At this point, the LEDs should be connected to both the
-    Arduino and the (<strong>&mdash;</strong>) input on the breadboard. Manipulate
+    Arduino and the (–) input on the breadboard. Manipulate
     the wires as necessary and place them inside each container.
 </p>
 <p>
@@ -561,7 +564,7 @@ Keeping in mind the cathode(<strong>+</strong>) and anode (<strong>&mdash;</stro
     <strong>Instruction Set Conclusion</strong>
 </p>
 <p>
-    My hope is that the goal of this instruction set is clear enough so that a
+    My hope is that the goal of this instruction set is clear enough that a
     user may create their own musical installation, whether that may be a
     direct replication of “Musical Vitality” or by altering the code for their
     own, unique projects. That said, the following section, “Delivering”
@@ -593,7 +596,7 @@ Keeping in mind the cathode(<strong>+</strong>) and anode (<strong>&mdash;</stro
     would manifest itself into the world and act “rhetorically” through a
     physical computing project—in this case, the blinking LED bulbs (8). The
     LEDs themselves were designed to create the “affective attunement with the
-    audience” that Morey mentions and draw them in to ultimately engage with
+    audience” that Morey mentions and draw the audience in to ultimately engage with
     the product itself—a rhizomatic structure, if you will (or at least one
     insertion point that invites a participant to engage with the exhibition),
     and one that would provide one avenue for a rhetorical transmission to
@@ -647,7 +650,7 @@ however, through the theoretical groundings of Morey’s <em>Rhetorical Delivery
 </p>
 <p>
     Sean Morey was not the only rhetorical scholar used in this production,
-    though he undoubtedly provided the bulk of inspiration. Both Robert J.
+    though he undoubtedly provided the bulk of the inspiration. Both Robert J.
     Connors and Collin Gifford Brooke offered elements of rhetorical delivery
     that were used in the production of this installation. For example, keeping
     the conventions presented by Connors in mind (type/typefaces,
@@ -662,7 +665,7 @@ however, through the theoretical groundings of Morey’s <em>Rhetorical Delivery
 </p>
 <p>
     “Musical Vitality” was, during its inception, designed with the traditional
-    notion of rhetoric in mind—that is, how, or in what ways, could create a
+    notion of rhetoric in mind—that is, how, or in what ways, could a
     rhetorically persuasive project be made? I soon came to realize through
     scholars of digital delivery such as Robert J. Connors, Collin Gifford
     Brooke, and Sean Morey that I could create an everted reality project,
@@ -709,7 +712,7 @@ document also went hand-in-hand with Brooke’s desire to bolster <em>ethos</em>
 </p>
 <p>
     “Musical Vitality” was met with positive reviews, notably how simple it was
-    to interact with and the inclusion of the flickering LEDs that served as an
+    to interact with, and the inclusion of the flickering LEDs that served as an
     attention-trap. In hindsight, there are a few aspects of the project I
     would change: rather than simply using music, I think that exploring a more
     haptic approach would be more engaging for interactors. For example, each
@@ -739,7 +742,7 @@ of project would be reflective of popular games such as <em>Guitar Hero</em> or 
     and Processing are exceptional tools for learning not only the conventions
     of coding and physical computing but also exploring avenues for blending
     rhetorical scholarship and critical making together, which I hope this
-    piece will inspire to do.
+    piece will inspire others to do.
 </p>
 
 
