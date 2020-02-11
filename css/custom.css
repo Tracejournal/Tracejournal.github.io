@@ -161,6 +161,10 @@ p {
   margin-top: 100px;
 }
 
+.cover {
+  margin-top: 20
+}
+
 /*#################
   navbar and header
   #################*/
@@ -233,17 +237,6 @@ p {
   width:100%;
 }
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px){
-  #logo {
-    margin-left:0;
-  }
-
-  #subtitle {
-    font-size: 11px;
-    margin-left: 10px;
-  }
-}
 
 #main-content {
   margin-left: 30px;
@@ -266,4 +259,33 @@ ol {
   font-family: "Times New Roman", Times, serif;
   margin-top:0;
   margin-bottom:10;
+}
+
+.cover {
+  margin-bottom: 20px;
+}
+
+/* ######################## */
+/* MOBILE AND TABLET SIZING */
+/* ######################## */
+
+/* Tablet Sizing */
+@media only screen and (max-width : 1200px){
+  .cover {
+  width: 300px;
+  }
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+  #logo {
+    margin-left:0;
+  }
+
+  #subtitle {
+    font-size: 11px;
+    margin-left: 10px;
+  }
 }
